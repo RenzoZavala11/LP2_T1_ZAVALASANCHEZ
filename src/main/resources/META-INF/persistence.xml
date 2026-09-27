@@ -4,6 +4,7 @@
 	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
 	<persistence-unit name="mysqlconexion"
 		transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
 		<properties>
 			<!-- MySQL -->
